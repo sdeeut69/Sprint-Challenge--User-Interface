@@ -144,3 +144,84 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* MY CSS CODE FOR CHALLENGE */
+
+body {
+    width: 800px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-size: medium;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 20px 40px 0 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+header nav a:hover,
+header nav a:active {
+    border-bottom: 2px solid #fc1313;
+    transition: border-bottom 0.2s;
+}
+
+.large-pic {
+    margin: 40px 0 20px 0;
+}
+
+.logo {
+    margin-left: -10;
+}
+
+.home-footer {
+    margin-bottom: 30px;
+}
+
+.button1 {
+	border: 2px solid black;
+	font-size: 100%;
+	padding: 9px 17px;
+	border-radius: 8px;
+	margin: 15px 0 20px 0;
+	background-color: white;
+}
+
+.button1:hover {
+	background: #fc1313;
+}
+
+.box-section {
+	display: flex;
+	flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 0 2%;
+}
+
+.picture-boxes {
+    width: 48%;
+    border-bottom: 1px dashed black; 
+    margin-bottom: 40px;
+	
+}
+
+.line {
+	margin: 30px 0;
+    border-bottom: 1px dashed black;
+}
+
+h2 {
+    margin-top: 10px
+}
+
+.about-text-container {
+    width: 100%;
+    padding: 0 2%;
+    padding-bottom: 5px;  
+}
